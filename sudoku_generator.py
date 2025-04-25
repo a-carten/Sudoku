@@ -1,6 +1,8 @@
 # Angela Carten, William O'Flaherty
 # GitHub Link:
 
+import random
+
 class SudokuGenerator:
     def __init__(self, row_length, removed_cells):
         self.row_length = row_length
